@@ -1,0 +1,2 @@
+# minato.py
+ jogo básico
