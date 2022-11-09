@@ -1,0 +1,47 @@
+print ('''
+
+         seja bem vindo ao quiz
+         
+         aqui você irá responder algumas perguntas
+         para testar o seu QI
+
+         Boa Sorte :D ''')
+
+print("OBS: Responda apenas com A, B , C ou D")
+print("")
+print("qual é o maior planeta do sistema solar? ")
+print("")
+print('a) Sol')
+print('b) Terra')
+print('c) Júpiter')
+print('d) Marte')
+
+resposta = input("digite a sua resposta: ")
+pontos = 0
+
+if resposta == 'c':
+  print("parabéns, você acertou.")
+  pontos += 20  #pontos = pontos + 20
+
+else:
+  print("não foi dessa vez, vamos pra próxima.")
+
+print("")
+
+print("quem foi o inventor da energia elétrica? ")
+print("")
+print('a) Albert Einsten')
+print('b) Elon Musk')
+print('c) Nycolas Tesla')
+print('d) Silvio Santos')
+
+resposta = input("digite a sua resposta: ")
+
+if resposta == 'c':
+  print("parabéns, você acertou.")
+  pontos += 20
+
+else:
+  print("errou")
+
+print("pontuação final", pontos)
